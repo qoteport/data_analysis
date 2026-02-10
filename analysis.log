@@ -1,0 +1,45 @@
+2026-02-10 11:25:02,623 - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/workspaces/data_analysis/analysis.py", line 7662, in <module>
+    phd_results = main_pipeline_phd_enhanced(df, target_col='HPI_Reported')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/data_analysis/analysis.py", line 7265, in main_pipeline_phd_enhanced
+    dates_train_val, dates_test = dates[train_val_indices], dates[test_indices]
+                                  ~~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: only integer scalar arrays can be converted to a scalar index
+2026-02-10 11:27:05,614 - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/workspaces/data_analysis/analysis.py", line 7662, in <module>
+    phd_results = main_pipeline_phd_enhanced(df, target_col='HPI_Reported')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/data_analysis/analysis.py", line 7265, in main_pipeline_phd_enhanced
+    dates_train_val, dates_test = dates[train_val_indices], dates[test_indices]
+                                  ~~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: only integer scalar arrays can be converted to a scalar index
+2026-02-10 11:27:31,307 - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/workspaces/data_analysis/analysis.py", line 7662, in <module>
+    phd_results = main_pipeline_phd_enhanced(df, target_col='HPI_Reported')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/data_analysis/analysis.py", line 7265, in main_pipeline_phd_enhanced
+    dates_train_val, dates_test = dates[train_val_indices], dates[test_indices]
+                                  ~~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: only integer scalar arrays can be converted to a scalar index
+2026-02-10 11:28:23,458 - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/workspaces/data_analysis/analysis.py", line 7662, in <module>
+    phd_results = main_pipeline_phd_enhanced(df, target_col='HPI_Reported')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/data_analysis/analysis.py", line 7265, in main_pipeline_phd_enhanced
+    dates_train_val, dates_test = dates[train_val_indices], dates[test_indices]
+                                  ~~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: only integer scalar arrays can be converted to a scalar index
+2026-02-10 11:28:38,924 - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/workspaces/data_analysis/analysis.py", line 7662, in <module>
+    phd_results = main_pipeline_phd_enhanced(df, target_col='HPI_Reported')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/data_analysis/analysis.py", line 7265, in main_pipeline_phd_enhanced
+    dates_train_val, dates_test = dates[train_val_indices], dates[test_indices]
+                                  ~~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: only integer scalar arrays can be converted to a scalar index

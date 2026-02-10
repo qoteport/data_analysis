@@ -1,0 +1,73 @@
+2026-02-10 11:24:58.160375: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-02-10 11:24:58.211589: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-02-10 11:24:59.608341: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+
+✓ Configuration:
+  Individual models: 1
+  Hybrid models: 0
+  Ensemble models: 0
+  Total models: 1
+  Batch size: 32
+  LSTM units: 64, BiLSTM units: 64, GRU units: 64
+================================================================================
+PhD-LEVEL ENHANCED COMPREHENSIVE MODEL PIPELINE
+================================================================================
+ALL ENHANCEMENTS INCLUDED:
+1. Comprehensive confusion matrices for all model types
+2. Category-specific visualizations (2 graphs per row)
+3. Cross-category comparison visualizations
+4. Classification forecast visualizations
+5. FIXED: Comprehensive residual hybrid creation (all residual types)
+6. FIXED: Ensemble composition tracking and visualization
+7. FEATURE SELECTION to reduce training parameters
+================================================================================
+
+1. DATA PREPROCESSING WITH FEATURE SELECTION
+----------------------------------------
+Starting Data Preprocessing Pipeline...
+Original shape: (908, 42)
+Checking target column 'hpi_reported' dtype: str
+Converting binary target column 'hpi_reported' to numeric (0/1).
+New target column 'hpi_reported' dtype: int64
+
+Detected column types:
+  datetime: 0 columns
+  categorical: 16 columns
+  numeric: 22 columns
+  binary: 4 columns
+
+Missing values handled
+Outliers handled
+Categorical variables encoded
+Numeric variables scaled (standard)
+
+Final shape after preprocessing: (901, 100)
+Number of features: 99
+
+
+2. TIME SERIES PREPARATION
+----------------------------------------
+Original number of features: 38
+
+Applying feature selection to reduce from 38 to 30 features...
+
+Selecting 30 features using Mutual Information...
+Selected 30 features: ['report_date', 'dominant_incident_type', 'dominant_causal_factor', 'dominant_root_cause', 'daily_production_tons', 'overtime_hours', 'environmental_risk_score', 'task_complexity_score', 'severity_score', 'training_risk_score']...
+
+Creating sequences with 30 features...
+Created 894 sequences
+Sequence shape: (894, 7, 30)
+Target shape: (894,)
+
+Time Series Sequence Statistics:
+  Total sequences: 894
+  Sequence shape: (894, 7, 30)
+  Target shape: (894,)
+  Number of features: 30
+  Time steps: 7
+
+Class Balance:
+  Class 0: 366 (40.9%)
+  Class 1: 528 (59.1%)
+  Balance ratio (1/0): 1.443
